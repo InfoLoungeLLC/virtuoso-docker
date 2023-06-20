@@ -2,7 +2,7 @@
 
 ## Abstruct
 
-- Boot latest version of Virtuoso-7
+- Boot latest version of [Virtuoso Open-Source Edition](https://vos.openlinksw.com/owiki/wiki/VOS)
 - Database and misc configs is created on ./database
 
 ## Preparation

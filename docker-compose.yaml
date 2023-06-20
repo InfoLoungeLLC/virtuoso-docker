@@ -1,0 +1,12 @@
+version: '3'
+services:
+  virtuoso:
+    image: openlink/virtuoso-opensource-7
+    ports:
+      - "1111:1111"
+      - "8890:8890"
+    volumes:
+      - ./database:/database:z
+    env_file:
+      - virtuoso.env
+

@@ -3,7 +3,7 @@
 ## Abstruct
 
 - Boot latest version of [Virtuoso Open-Source Edition](https://vos.openlinksw.com/owiki/wiki/VOS)
-- Database and misc configs is created on ./database
+- Database and misc configs are created on ./database
 
 ## Preparation
 
@@ -31,6 +31,14 @@ Ctrl+C # for forground
 
 ```bash
 docker compose down # for background
+```
+
+## How to crean up all database and configs
+
+```bash
+docker compose down
+rm ./database/*
+docker compose up -d
 ```
 
 ## Access to Conductor

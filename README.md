@@ -46,4 +46,4 @@ docker compose up -d
 http://localhost:8890/
 
 - Account: dba
-- Password: <your DBA_PASSWORD>
+- Password: (your DBA_PASSWORD)

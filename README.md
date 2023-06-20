@@ -37,5 +37,5 @@ docker compose down # for background
 
 http://localhost:8890/
 
-Account: dba
-Password: <your DBA_PASSWORD>
+- Account: dba
+- Password: <your DBA_PASSWORD>
